@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ej7PDF.Cliente">
+   <children>
+      <Label layoutX="446.0" layoutY="26.0" prefHeight="80.0" prefWidth="113.0" text="LETRA:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textoLetra" layoutX="428.0" layoutY="106.0" prefHeight="43.0" prefWidth="131.0" />
+      <TextField fx:id="palabraParaAdivinar" editable="false" layoutX="14.0" layoutY="54.0" prefHeight="56.0" prefWidth="281.0" text="----------" />
+      <Button layoutX="442.0" layoutY="161.0" mnemonicParsing="false" onAction="#verificarPalabra" prefHeight="43.0" prefWidth="106.0" text="OK" />
+      <Label fx:id="vidas" layoutX="94.0" layoutY="196.0" prefHeight="43.0" prefWidth="100.0" text="Vidas" />
+   </children>
+</AnchorPane>
